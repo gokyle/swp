@@ -1,0 +1,6 @@
+swp: swap two files
+
+usage:
+    swp file1 file2
+
+license: ISC / public domain
