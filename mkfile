@@ -29,7 +29,7 @@ install:V:swp
         SUDO=
     fi
     $SUDO install -D ${TARGET}.1 "$(manpath | sed -e 's/:..*//')"/man1/
-    if [ ! -z "$SUDO ]; then
+    if [ ! -z "$SUDO" ]; then
         $SUDO -k
     fi
 
