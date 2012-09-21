@@ -1,6 +1,11 @@
 swp: swap two files
 
 usage:
-    swp file1 file2
+        swp file1 file2
 
-license: ISC / public domain
+license:
+        ISC / public domain
+
+dependencies:
+        swp uses the Plan9 mk(1) make system, which is part of the plan9
+        from userspace software (http://swtch.com/plan9port/).
